@@ -311,7 +311,7 @@ LOCAL_MODULE_TAGS := optional
 
 LOCAL_VENDOR_MODULE := true
 
-LOCAL_CFLAGS += -Werror
+LOCAL_CFLAGS += -Wno-error
 
 include $(BUILD_SHARED_LIBRARY)
 
